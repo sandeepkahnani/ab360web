@@ -1,0 +1,15 @@
+name = "ab360web"
+main = "src/index.tsx"
+compatibility_date = "2025-01-01"
+
+[assets]
+directory = "./public"
+binding = "ASSETS"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "ab360web-db"
+database_id = "REPLACE_AFTER_DB_CREATE"
+
+[vars]
+SITE_URL = "https://ab360web.online"
