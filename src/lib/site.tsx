@@ -100,8 +100,7 @@ export const Layout: FC<{ s: Record<string, string>; seo?: SEO; children?: any }
         {s.popup_enabled === '1' ? (
           <div class="popup" id="popup" hidden>
             <div class="popup-card glass">
-              <button class="popup-x" id="popupx" aria-label="Close">×</button>
-              <h3>{s.popup_title}</h3>
+<button type="button" class="popup-x" id="popupx" aria-label="Close">×</button>              <h3>{s.popup_title}</h3>
               <p class="muted">{s.popup_text}</p>
               <form class="lead-mini" data-lead data-source="popup">
                 <input name="name" placeholder="Your name" required />
