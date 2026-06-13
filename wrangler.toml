@@ -9,7 +9,7 @@ binding = "ASSETS"
 [[d1_databases]]
 binding = "DB"
 database_name = "ab360web-db"
-database_id = "REPLACE_AFTER_DB_CREATE"
+database_id = "5f197d8e-c514-4c1b-a781-a37fbe8754c2"
 
 [vars]
 SITE_URL = "https://ab360web.online"
